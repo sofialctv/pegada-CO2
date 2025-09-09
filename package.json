@@ -5,7 +5,7 @@
   "main": "src/script.js",
   "scripts": {
     "start": "live-server src",
-    "build": "tsc && cpx src/*.html dist && cpx src/*.css dist",
+    "build": "tsc && cpx src/*.html dist && cpx src/*.css dist && cpx src/*.js dist",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
