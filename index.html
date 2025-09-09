@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegada de Carbono Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora <br> Pegada de Carbono Digital Diária</h1>
+        
+        <form id="carbonFootprintForm">
+            <label for="facebookHours">Facebook (horas por dia)</label>
+            <input type="number" id="facebookHours" min="0" step="any">
+
+            <label for="instagramHours">Instagram (horas por dia)</label>
+            <input type="number" id="instagramHours" min="0" step="any">
+
+            <label for="tiktokHours">TikTok (horas por dia)</label>
+            <input type="number" id="tiktokHours" min="0" step="any">
+
+            <label for="streamingHours">Consumo de streaming (horas por dia)</label>
+            <input type="number" id="streamingHours" min="0" step="any">
+
+            <label for="emailsSent">Emails enviados (por dia)</label>
+            <input type="number" id="emailsSent" min="0" >
+
+            <label for="cloudStorage">Armazenamento em Nuvem (GB)</label>
+            <input type="number" id="cloudStorage" min="0" step="any" placeholder="Considere o consumo do último ano">
+
+            <button type="submit">Calcular</button>
+            <h3>Veja o impacto das suas atividades digitais</h3>
+
+        </form>
+        
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
