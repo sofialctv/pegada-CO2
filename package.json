@@ -1,0 +1,17 @@
+{
+  "name": "carbon-footprint-app",
+  "version": "1.0.0",
+  "description": "A simple web application to calculate the digital carbon footprint of an individual.",
+  "main": "src/script.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
